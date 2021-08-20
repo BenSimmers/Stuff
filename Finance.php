@@ -15,7 +15,7 @@
 <head>
 <meta charset="UTF-8">
 </head>
-<title>test</title>
+<title>v1.1</title>
 <center>
 
 <body>
