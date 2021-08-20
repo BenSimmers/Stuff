@@ -1,3 +1,2 @@
 # Stuff
-cool  stuff that i make
-1. finance help webiste: currently still in development
+1. finance curr  dev v1.01
