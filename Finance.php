@@ -97,7 +97,7 @@
 			break;
 			
 			case "Effective Rate":
-				echo
+				echo;
 			break;
 			
 			case "Amortized loan payment":
