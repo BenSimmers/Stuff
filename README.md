@@ -1,2 +1,3 @@
 # Stuff
-1. finance curr  dev v1.01
+1. Finance curr  dev v1.01
+2. Simple Encryption algorithm made in python
