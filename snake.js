@@ -69,5 +69,21 @@ function keyPush(evt) {
         case 40:
             xv=0;yv=1;
             break;
-    }
+
+        case document.getElementById("myBtn1").click():
+            xv=0;yv=-1;
+            break;
+        
+        case document.getElementById("myBtn2").click():
+            xv=0;yv=1;
+            break;
+
+        case document.getElementById("myBtn3").click():
+            xv=-1;yv=0;
+            break;
+
+        case document.getElementById("myBtn4").click():
+            xv=1;yv=0;
+            break
+        }
 }
