@@ -36,8 +36,8 @@
 		
 		<br>
 		<h1>Remaining Balance</h1>
-		<br>
 
+		<br>
         <select name="operator">
             <option>Select what you are Calculating</option>
 			<option>Calculate Simple Interest</option> <!-- done -->
