@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
-
-
-
 <head>
 <meta charset="UTF-8">
 </head>
 <title>v1.1</title>
-<center>
 
+
+<center>
 <body>
 	<form>
 		<h1>Simple Interest</h1>
@@ -31,15 +29,20 @@
 		<h1>Amortized Loan payment</h1>
 		
 		
+
+
+
+
+		
 		<br>
 		<h1>Remaining Balance</h1>
 		<br>
 
         <select name="operator">
             <option>Select what you are Calculating</option>
-			<option>Calculate Simple Interest</option>
-			<option>Calculate Compound interest</option>
-			<option>Effective Rate</option>
+			<option>Calculate Simple Interest</option> <!-- done -->
+			<option>Calculate Compound interest</option> <!-- done -->
+			<option>Effective Rate</option> <!-- done -->
 			<option>Amortized loan payment</option>
 			<option>Remaining Balance</option>
 			
@@ -52,7 +55,7 @@
 		<button type="submit" name="submit" value="submit">calculate</button>
     </form>
 	
-<b><p> the answer is:</p></center></b>
+<b><p> the answer is:</p></b>
 <?php
 	if(isset($_GET['submit'])){
 		$result1 = $_GET['num1']; //si
@@ -67,42 +70,37 @@
 		
 		
 		
-				
+		//ALP
+		//ALP
+
+		//RB
+		//RB
+		
+		
+		
 		
 		$operator = $_GET['operator'];
 		switch($operator){
 			case "Select what you are Calculating":
-				echo "ERROR";
+				echo "not a valid input statemment";
 			break;
-			
+
 			case "Calculate Simple Interest":
 				echo $result1 * $result2 * $result3;
 			break;
-			
+
 			case "Calculate Compound interest":
-				echo"Compound Interest is: " $p * (pow((1 + $r / 100), $t));
+				echo $p * (pow((1 + $r / 100), $t));
 			break;
-			
+
 			case "Effective Rate":
 				echo (pow(1 + $r1/$n, $n) - (1)) * 100;
-			break;
-			
-			case "Effective Rate":
-				echo;
-			break;
-			
-			case "Amortized loan payment":
-				echo;
-			break;
-			
-			case "Remaining Balance":
-				echo ;
-				
-			break;
-				
-			
+			break;	
 		}
 	}
 ?>
+
+</center>
+
 </body>
 </html>
